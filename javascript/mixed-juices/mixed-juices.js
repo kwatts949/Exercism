@@ -73,12 +73,16 @@ export function remainingOrders(timeLeft, orders) {
 
   while (prepTime <= timeLeft) {
     console.log(`preptime is ${prepTime}`);
-    prepTime += timeToMixJuice(orders[i]);
+    console.log(timeLeft)
+    
+    console.log(`preptime is ${prepTime}`);
     console.log(`I is ${i}`)
     console.log(orders)
-    if (prepTime < timeLeft) {
+    i++;
+    if (prepTime <= timeLeft) {
+      prepTime += timeToMixJuice(orders[i]);
       console.log(orders.splice(0, 1))
-      i++;
+      
     }
   }
   return(orders);
