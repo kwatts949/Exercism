@@ -5,14 +5,14 @@ describe('timeToMixJuice', () => {
     expect(timeToMixJuice('Pure Strawberry Joy')).toBe(0.5);
   });
 
-  xtest('returns the correct times for all other standard menu items', () => {
+  test('returns the correct times for all other standard menu items', () => {
     expect(timeToMixJuice('Energizer')).toBe(1.5);
     expect(timeToMixJuice('Green Garden')).toBe(1.5);
     expect(timeToMixJuice('Tropical Island')).toBe(3);
     expect(timeToMixJuice('All or Nothing')).toBe(5);
   });
 
-  xtest('returns the same time for all other juices', () => {
+  test('returns the same time for all other juices', () => {
     const defaultTime = 2.5;
     expect(timeToMixJuice('Limetime')).toBe(defaultTime);
     expect(timeToMixJuice('Manic Organic')).toBe(defaultTime);
