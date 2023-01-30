@@ -21,7 +21,7 @@ describe('timeToMixJuice', () => {
 });
 
 describe('limesToCut', () => {
-  xtest('calculates the number of limes needed to reach the target supply', () => {
+  test('calculates the number of limes needed to reach the target supply', () => {
     const limes = [
       'small',
       'large',
