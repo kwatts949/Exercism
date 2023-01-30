@@ -19,14 +19,14 @@ describe('createVisitor', () => {
 });
 
 describe('revokeTicket', () => {
-  xtest('sets the ticketId to null', () => {
+  test('sets the ticketId to null', () => {
     const visitor = { name: 'María Pilar Neri', age: 16, ticketId: 'MFBSF3S2' };
 
     const expected = { name: 'María Pilar Neri', age: 16, ticketId: null };
     expect(revokeTicket(visitor)).toEqual(expected);
   });
 
-  xtest('returns the same object that was passed in', () => {
+  test('returns the same object that was passed in', () => {
     const visitor = { name: 'Anatoli Traverse', age: 34, ticketId: 'AA5AA01D' };
 
     // This checks that the same object that was passed in is returned.
