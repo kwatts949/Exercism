@@ -61,7 +61,7 @@ describe('removePlayer', () => {
     expect(Object.is(actual, scoreBoard)).toBe(true);
   });
 
-  xtest('does nothing if the player is not on the board', () => {
+  test('does nothing if the player is not on the board', () => {
     const scoreBoard = {
       'Amil Pastorius': 99373,
       'Min-seo Shin': 0,
@@ -77,7 +77,7 @@ describe('removePlayer', () => {
 });
 
 describe('updateScore', () => {
-  xtest("increases a player's score", () => {
+  test("increases a player's score", () => {
     const scoreBoard = {
       'Amil Pastorius': 99373,
       'Min-seo Shin': 0,
