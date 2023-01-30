@@ -15,7 +15,7 @@ describe('createScoreBoard', () => {
 });
 
 describe('addPlayer', () => {
-  xtest('adds a player and score to the board', () => {
+  test('adds a player and score to the board', () => {
     const scoreBoard = {
       'Amil Pastorius': 99373,
       'Min-seo Shin': 0,
