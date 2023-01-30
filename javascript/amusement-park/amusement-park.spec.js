@@ -34,7 +34,7 @@ describe('revokeTicket', () => {
     expect(Object.is(revokeTicket(visitor), visitor)).toBe(true);
   });
 
-  xtest('does nothing if the ticket was already revoked', () => {
+  test('does nothing if the ticket was already revoked', () => {
     const visitor = { name: 'Min-Ji Chu', age: 51, ticketId: null };
     const actual = revokeTicket(visitor);
 
@@ -45,19 +45,19 @@ describe('revokeTicket', () => {
 });
 
 describe('ticketStatus', () => {
-  xtest('correctly identifies that a ticket is not in the tracking object', () => {
+  test('correctly identifies that a ticket is not in the tracking object', () => {
     expect(ticketStatus(testTickets(), 'Y4KXZOYM')).toBe('unknown ticket id');
     expect(ticketStatus(testTickets(), '8ATQC1ZJ')).toBe('unknown ticket id');
     expect(ticketStatus(testTickets(), 'G833HR8A')).toBe('unknown ticket id');
   });
 
-  xtest('correctly identifies that a ticket is not sold', () => {
+  test('correctly identifies that a ticket is not sold', () => {
     expect(ticketStatus(testTickets(), 'V42NWRMQ')).toBe('not sold');
     expect(ticketStatus(testTickets(), 'A56MTX8E')).toBe('not sold');
     expect(ticketStatus(testTickets(), 'YEVHK4MC')).toBe('not sold');
   });
 
-  xtest('returns the correct string for a ticket that was sold', () => {
+  test('returns the correct string for a ticket that was sold', () => {
     const actual1 = ticketStatus(testTickets(), 'QINS6S94');
     expect(actual1).toBe('sold to Hong Hsu');
 

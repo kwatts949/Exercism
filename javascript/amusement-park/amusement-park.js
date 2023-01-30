@@ -10,8 +10,8 @@
  * @returns {Visitor} the visitor that was created
  */
 export function createVisitor(name, age, ticketId) {
-  const visitor = {name: name, age: age, ticketId: ticketId}
-  return visitor
+  const visitor = { name: name, age: age, ticketId: ticketId };
+  return visitor;
 }
 
 /**
@@ -22,7 +22,7 @@ export function createVisitor(name, age, ticketId) {
  */
 export function revokeTicket(visitor) {
   visitor.ticketId = null;
-  return visitor
+  return visitor;
 }
 
 /**
@@ -33,7 +33,13 @@ export function revokeTicket(visitor) {
  * @returns {string} ticket status
  */
 export function ticketStatus(tickets, ticketId) {
-  throw new Error('Please implement the ticketStatus function.');
+  if (tickets[ticketId] === undefined) {
+    return "unknown ticket id";
+  } else if (tickets[ticketId] === null) {
+    return "not sold";
+  } else {
+    return `sold to ${tickets[ticketId]}`
+  }
 }
 
 /**
@@ -45,7 +51,7 @@ export function ticketStatus(tickets, ticketId) {
  * @returns {string} ticket status
  */
 export function simpleTicketStatus(tickets, ticketId) {
-  throw new Error('Please implement the simpleTicketStatus function.');
+  throw new Error("Please implement the simpleTicketStatus function.");
 }
 
 /**
@@ -55,5 +61,5 @@ export function simpleTicketStatus(tickets, ticketId) {
  * @returns {string | undefined} version
  */
 export function gtcVersion(visitor) {
-  throw new Error('Please implement the gtcVersion function.');
+  throw new Error("Please implement the gtcVersion function.");
 }
