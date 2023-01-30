@@ -2,6 +2,7 @@ This is a repo for completed Exercism challenges.
 
 # JavaScript
 
+- [Amusement Park](./javascript/amusement-park)
 - [Annalyn's Infiltration](./javascript/annalyns-infiltration)
 - [Bird Watcher](./javascript/bird-watcher)
 - [Elyse's Enchantments](./javascript/elyses-enchantments)
