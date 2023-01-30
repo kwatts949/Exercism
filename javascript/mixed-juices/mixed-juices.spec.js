@@ -104,7 +104,7 @@ describe('remainingOrders', () => {
     expect(remainingOrders(12, orders)).toEqual([]);
   });
 
-  xtest('works if there is only very little time left', () => {
+  test('works if there is only very little time left', () => {
     const orders = ['Bananas Gone Wild', 'Pure Strawberry Joy'];
     const expected = ['Pure Strawberry Joy'];
 
