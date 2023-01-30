@@ -61,7 +61,7 @@ describe('limesToCut', () => {
 });
 
 describe('remainingOrders', () => {
-  xtest('correctly determines the remaining orders', () => {
+  test('correctly determines the remaining orders', () => {
     const orders = [
       'Tropical Island',
       'Energizer',
@@ -74,7 +74,7 @@ describe('remainingOrders', () => {
     expect(remainingOrders(7, orders)).toEqual(expected);
   });
 
-  xtest('correctly handles orders that were started because there was time left', () => {
+  test('correctly handles orders that were started because there was time left', () => {
     const orders = [
       'Pure Strawberry Joy',
       'Pure Strawberry Joy',
