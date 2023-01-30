@@ -31,7 +31,7 @@ describe('addPlayer', () => {
     expect(actual).toEqual(expected);
   });
 
-  xtest('returns the existing score board', () => {
+  test('returns the existing score board', () => {
     const scoreBoard = {};
     const actual = addPlayer(scoreBoard, 'Jesse Johnson', 1337);
 
@@ -42,7 +42,7 @@ describe('addPlayer', () => {
 });
 
 describe('removePlayer', () => {
-  xtest('removes a player from the score board', () => {
+  test('removes a player from the score board', () => {
     const scoreBoard = {
       'Amil Pastorius': 99373,
       'Min-seo Shin': 0,
