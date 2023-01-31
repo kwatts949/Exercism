@@ -1,5 +1,6 @@
 {
   "root": true,
+  "requireConfigFile": false,
   "extends": "@exercism/eslint-config-javascript",
   "env": {
     "jest": true
