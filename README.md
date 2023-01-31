@@ -11,12 +11,14 @@ This is a repo for completed Exercism challenges.
 - [High Score Board](./javascript/high-score-board)
 - [Mixed Juices](./javascript/mixed-juices)
 - [Lasagna](./javascript/lasagna)
+- [Lasagna Master](./javascript/lasagna-master)
+- [Lucky Numbers](./javascript/lucky-numbers)
 - [Poetry Club Door Policy](./javascript/poetry-club-door-policy)
 - [Vehicle Purchase](./javascript/vehicle-purchase)
-
 
 # Ruby
 
 # TypeScript
+
 - [Hello World!](./typescript/hello-world)
 - [Two Fer](./typescript/two-fer)
