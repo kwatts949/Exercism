@@ -25,6 +25,14 @@ export function quantities(layers) {
 
 export function addSecretIngredient(friendsList, myList) {
   //console.log(friendsList, myList);
-  let newIngredient = (friendsList[friendsList.length - 1]);
-  myList.push(newIngredient)
+  let newIngredient = friendsList[friendsList.length - 1];
+  myList.push(newIngredient);
+}
+
+export function scaleRecipe(recipe, portions) {
+  let newAmounts = {};
+  for(let ingredient in recipe) {
+    newAmounts[ingredient] = recipe[ingredient] / 2 * portions;
+  }
+  return newAmounts;
 }
