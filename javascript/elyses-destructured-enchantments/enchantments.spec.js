@@ -23,19 +23,19 @@ describe('getFirstCard', () => {
 });
 
 describe('getSecondCard', () => {
-  xtest('from a deck with two cards', () => {
+  test('from a deck with two cards', () => {
     expect(getSecondCard([10, 4])).toBe(4);
   });
 
-  xtest('from a deck with many cards', () => {
+  test('from a deck with many cards', () => {
     expect(getSecondCard([2, 5, 1, 6])).toBe(5);
   });
 
-  xtest('from an empty deck', () => {
+  test('from an empty deck', () => {
     expect(getSecondCard([])).toBe(undefined);
   });
 
-  xtest('from a deck with one card', () => {
+  test('from a deck with one card', () => {
     expect(getSecondCard([8])).toBe(undefined);
   });
 });
