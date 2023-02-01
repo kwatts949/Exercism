@@ -48,18 +48,29 @@ export function scale2d(sx, sy) {
  */
 export function composeTransform(f, g) {
   return function compose(x, y) {
-    let functionOne = f(x,y)
-    return g(functionOne[0],functionOne[1])
+    let functionOne = f(x, y);
+    return g(functionOne[0], functionOne[1]);
   };
 }
 
 /**
- * Return a function that memoizes the last result.  If the arguments are the same as the last call,
- * then memoized result returned.
+ * Return a function that memorizes the last result.  If the arguments are the same as the last call,
+ * then memorized result returned.
  *
  * @param {function} f the transformation function to memoize, assumes takes two arguments 'x' and 'y'
  *
  * @returns {function} a function which takes x and y arguments, and will either return the saved result
  *  if the arguments are the same on subsequent calls, or compute a new result if they are different.
  */
-export function memoizeTransform(f) {}
+export function memoizeTransform(f) {
+  let lastX, lastY, lastResult;
+
+  return function memorise(x, y) {
+    if (lastX === x && lastY === y) {
+      return lastResult;
+    }
+    lastX = x;
+    lastY = y;
+    return (lastResult = f(x, y));
+  };
+}

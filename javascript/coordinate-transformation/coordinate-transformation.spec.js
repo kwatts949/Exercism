@@ -98,29 +98,29 @@ describe('composeTransform', () => {
 });
 
 describe('memoizeTransform', () => {
-  xtest('should return a function', () => {
+  test('should return a function', () => {
     expect(typeof memoizeTransform(translate2d(0, 0))).toBe('function');
   });
 
-  xtest('should return the same result if given the same input', () => {
+  test('should return the same result if given the same input', () => {
     const memoizedTranslate = memoizeTransform(translate2d(2, 2));
     expect(memoizedTranslate(2, 2)).toEqual([4, 4]);
     expect(memoizedTranslate(2, 2)).toEqual([4, 4]);
   });
 
-  xtest('should return different results for different inputs', () => {
+  test('should return different results for different inputs', () => {
     const memoizedTranslate = memoizeTransform(translate2d(1, 2));
     expect(memoizedTranslate(2, 2)).toEqual([3, 4]);
     expect(memoizedTranslate(6, 6)).toEqual([7, 8]);
   });
 
-  xtest('should not call the memoized function if the input is the same', () => {
+  test('should not call the memoized function if the input is the same', () => {
     const memoizedTransform = memoizeTransform(fakeTransform());
     expect(memoizedTransform(5, 5)).toEqual([1, 1]);
     expect(memoizedTransform(5, 5)).toEqual([1, 1]);
   });
 
-  xtest('should only remember the last result', () => {
+  test('should only remember the last result', () => {
     const mockFunction = jest.fn((x, y) => [x * 2, y * 2]);
     const memoizedTransform = memoizeTransform(mockFunction);
     expect(memoizedTransform(1, 1)).toEqual([2, 2]);
