@@ -37,10 +37,10 @@ describe('isEachCardEven', () => {
 });
 
 describe('doesStackIncludeOddCard', () => {
-  xtest('should be true if odd number card is found', () => {
+  test('should be true if odd number card is found', () => {
     expect(doesStackIncludeOddCard([2, 5])).toBe(true);
   });
-  xtest('should be false if no odd number card is found', () => {
+  test('should be false if no odd number card is found', () => {
     expect(doesStackIncludeOddCard([2, 4, 6])).toBe(false);
   });
 });
