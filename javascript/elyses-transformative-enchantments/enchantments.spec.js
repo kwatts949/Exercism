@@ -43,21 +43,21 @@ describe("seeingDouble", () => {
 });
 
 describe("threeOfEachThree", () => {
-  xtest("one 3 is converted into three 3s", () => {
+  test("one 3 is converted into three 3s", () => {
     expect(threeOfEachThree([3])).toEqual([3, 3, 3]);
   });
 
-  xtest("also converts multiple 3s", () => {
+  test("also converts multiple 3s", () => {
     const deck = [3, 10, 2, 8, 3, 4];
     const expected = [3, 3, 3, 10, 2, 8, 3, 3, 3, 4];
     expect(threeOfEachThree(deck)).toEqual(expected);
   });
 
-  xtest("returns the same elements if there are no 3s", () => {
+  test("returns the same elements if there are no 3s", () => {
     expect(threeOfEachThree([1, 2, 4])).toEqual([1, 2, 4]);
   });
 
-  xtest("can handle an empty deck", () => {
+  test("can handle an empty deck", () => {
     expect(threeOfEachThree([])).toEqual([]);
   });
 });
