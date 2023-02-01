@@ -117,50 +117,50 @@ describe("twoIsSpecial", () => {
 });
 
 describe("perfectlyOrdered", () => {
-  xtest("sorts the cards lowest to highest", () => {
+  test("sorts the cards lowest to highest", () => {
     const deck = [2, 1, 6, 9, 3];
     const expected = [1, 2, 3, 6, 9];
     expect(perfectlyOrdered(deck)).toEqual(expected);
   });
 
-  xtest("can handle duplicated numbers", () => {
+  test("can handle duplicated numbers", () => {
     const deck = [2, 2, 6, 9, 3, 6];
     const expected = [2, 2, 3, 6, 6, 9];
     expect(perfectlyOrdered(deck)).toEqual(expected);
   });
 
-  xtest("works for a large deck", () => {
+  test("works for a large deck", () => {
     const deck = [6, 10, 5, 9, 4, 3, 7, 7, 1, 2, 6, 8, 1, 3];
     const expected = [1, 1, 2, 3, 3, 4, 5, 6, 6, 7, 7, 8, 9, 10];
     expect(perfectlyOrdered(deck)).toEqual(expected);
   });
 
-  xtest("can handle an empty deck", () => {
+  test("can handle an empty deck", () => {
     expect(perfectlyOrdered([])).toEqual([]);
   });
 });
 
 describe("reorder", () => {
-  xtest("reorders the deck", () => {
+  test("reorders the deck", () => {
     const deck = [2, 1, 6, 9, 3];
     const expected = [3, 9, 6, 1, 2];
     expect(reorder(deck)).toEqual(expected);
   });
 
-  xtest("works for a large deck", () => {
+  test("works for a large deck", () => {
     const deck = [6, 10, 5, 9, 4, 3, 7, 7, 1, 2, 6, 8, 1, 3];
     const expected = [3, 1, 8, 6, 2, 1, 7, 7, 3, 4, 9, 5, 10, 6];
     expect(reorder(deck)).toEqual(expected);
   });
 
-  xtest("modifies the original deck", () => {
+  test("modifies the original deck", () => {
     const deck = [2, 1, 6, 9, 3];
     const expected = [3, 9, 6, 1, 2];
     reorder(deck);
     expect(deck).toEqual(expected);
   });
 
-  xtest("can handle an empty deck", () => {
+  test("can handle an empty deck", () => {
     expect(reorder([])).toEqual([]);
   });
 });
