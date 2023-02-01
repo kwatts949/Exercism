@@ -42,7 +42,7 @@ describe('translate2d', () => {
 });
 
 describe('scale2d', () => {
-  xtest('should return a function', () => {
+  test('should return a function', () => {
     expect(typeof scale2d(0, 0)).toBe('function');
   });
 
@@ -52,14 +52,14 @@ describe('scale2d', () => {
   const x1 = 1;
   const y1 = 1;
   const expected = [4, 2];
-  xtest('should be predictable', () => {
+  test('should be predictable', () => {
     expect(scaler(x1, y1)).toEqual(expected);
   });
 
   const x2 = -2;
   const y2 = 5;
   const reusedExpected = [-8, 10];
-  xtest('should be reusable', () => {
+  test('should be reusable', () => {
     expect(scaler(x2, y2)).toEqual(reusedExpected);
   });
 });

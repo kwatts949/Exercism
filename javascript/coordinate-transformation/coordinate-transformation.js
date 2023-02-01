@@ -31,7 +31,9 @@ export function translate2d(dx, dy) {
  *  scaled coordinate pair in the form [x, y]
  */
 export function scale2d(sx, sy) {
-  ;
+  return function scale(x1, y1) {
+    return [sx * x1, sy * y1]
+  }
 }
 
 /**
