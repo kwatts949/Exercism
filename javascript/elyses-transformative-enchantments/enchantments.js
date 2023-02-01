@@ -19,7 +19,7 @@ export function seeingDouble(deck) {
  * @returns {number[]} deck with triplicate 3s
  */
 export function threeOfEachThree(deck) {
-  return deck.map(card => card === 3 ? [3, 3, 3] : card).flat()
+  return deck.map((card) => (card === 3 ? [3, 3, 3] : card)).flat();
 }
 
 /**
@@ -31,7 +31,7 @@ export function threeOfEachThree(deck) {
  * @returns {number[]} deck with only two middle cards
  */
 export function middleTwo(deck) {
-  throw new Error("Implement the middleTwo function");
+  return deck.splice(4, 2);
 }
 
 /**

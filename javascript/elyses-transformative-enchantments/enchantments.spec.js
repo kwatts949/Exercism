@@ -63,13 +63,13 @@ describe("threeOfEachThree", () => {
 });
 
 describe("middleTwo", () => {
-  xtest("extracts the middle two cards", () => {
+  test("extracts the middle two cards", () => {
     const deck = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     const expected = [5, 6];
     expect(middleTwo(deck)).toEqual(expected);
   });
 
-  xtest("works with an unordered deck", () => {
+  test("works with an unordered deck", () => {
     const deck = [6, 10, 5, 9, 4, 3, 1, 2, 6, 8];
     const expected = [4, 3];
     expect(middleTwo(deck)).toEqual(expected);
