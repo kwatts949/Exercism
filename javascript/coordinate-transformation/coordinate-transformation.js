@@ -16,8 +16,8 @@
  */
 export function translate2d(dx, dy) {
   return function translate(x1, y1) {
-    return [dx + x1, dy + y1]
-  }
+    return [dx + x1, dy + y1];
+  };
 }
 
 /**
@@ -32,8 +32,8 @@ export function translate2d(dx, dy) {
  */
 export function scale2d(sx, sy) {
   return function scale(x1, y1) {
-    return [sx * x1, sy * y1]
-  }
+    return [sx * x1, sy * y1];
+  };
 }
 
 /**
@@ -47,7 +47,10 @@ export function scale2d(sx, sy) {
  *  transformed coordinate pair in the form [x, y]
  */
 export function composeTransform(f, g) {
-  ;
+  return function compose(x, y) {
+    let functionOne = f(x,y)
+    return g(functionOne[0],functionOne[1])
+  };
 }
 
 /**
@@ -59,6 +62,4 @@ export function composeTransform(f, g) {
  * @returns {function} a function which takes x and y arguments, and will either return the saved result
  *  if the arguments are the same on subsequent calls, or compute a new result if they are different.
  */
-export function memoizeTransform(f) {
-;
-}
+export function memoizeTransform(f) {}
