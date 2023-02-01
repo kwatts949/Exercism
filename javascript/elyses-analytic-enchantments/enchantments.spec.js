@@ -46,10 +46,10 @@ describe('doesStackIncludeOddCard', () => {
 });
 
 describe('getFirstOddCard', () => {
-  xtest('should return the first odd card found', () => {
+  test('should return the first odd card found', () => {
     expect(getFirstOddCard([2, 4, 1, 3])).toBe(1);
   });
-  xtest('should return undefined if odd card is not found', () => {
+  test('should return undefined if odd card is not found', () => {
     expect(getFirstOddCard([4, 2, 6])).toBeUndefined();
   });
 });
