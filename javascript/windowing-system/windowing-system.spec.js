@@ -27,19 +27,19 @@ describe('Size class', () => {
 });
 
 describe('Position class', () => {
-  xtest('allows to create a new instance', () => {
+  test('allows to create a new instance', () => {
     const position = new Position(10, 20);
     expect(position.x).toBe(10);
     expect(position.y).toBe(20);
   });
 
-  xtest('applies default values', () => {
+  test('applies default values', () => {
     const position = new Position();
     expect(position.x).toBe(0);
     expect(position.y).toBe(0);
   });
 
-  xtest('provides a move method', () => {
+  test('provides a move method', () => {
     const position = new Position(10, 20);
     position.move(30, 40);
     expect(position.x).toBe(30);
