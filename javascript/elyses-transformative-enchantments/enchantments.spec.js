@@ -101,17 +101,17 @@ describe("sandwichTrick", () => {
 });
 
 describe("twoIsSpecial", () => {
-  xtest("keeps only the 2s", () => {
+  test("keeps only the 2s", () => {
     const deck = [1, 2, 9, 1, 2, 2, 6, 7];
     const expected = [2, 2, 2];
     expect(twoIsSpecial(deck)).toEqual(expected);
   });
 
-  xtest("returns an empty deck if there are no 2s", () => {
+  test("returns an empty deck if there are no 2s", () => {
     expect(twoIsSpecial([1, 9, 1])).toEqual([]);
   });
 
-  xtest("can handle an empty deck", () => {
+  test("can handle an empty deck", () => {
     expect(twoIsSpecial([])).toEqual([]);
   });
 });
