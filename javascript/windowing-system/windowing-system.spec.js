@@ -48,7 +48,7 @@ describe('Position class', () => {
 });
 
 describe('ProgramWindow class', () => {
-  xtest('allows to create a new instance', () => {
+  test('allows to create a new instance', () => {
     const window = new ProgramWindow();
 
     expect(window.size).toBeInstanceOf(Size);
@@ -62,7 +62,7 @@ describe('ProgramWindow class', () => {
     expect(window.position.y).toBe(0);
   });
 
-  xtest('does NOT take parameters in the constructor function', () => {
+  test('does NOT take parameters in the constructor function', () => {
     const size = new Size(500, 400);
     const position = new Position(25, 15);
     const programWindow = new ProgramWindow(size, position);
