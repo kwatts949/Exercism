@@ -18,19 +18,19 @@ describe('buildSign', () => {
 });
 
 describe('buildBirthdaySign', () => {
-  xtest('age is less than 50', () => {
+  test('age is less than 50', () => {
     expect(buildBirthdaySign(49)).toBe(
       'Happy Birthday! What a young fellow you are.'
     );
   });
 
-  xtest('age is 50 or older', () => {
+  test('age is 50 or older', () => {
     expect(buildBirthdaySign(51)).toBe(
       'Happy Birthday! What a mature fellow you are.'
     );
   });
 
-  xtest('age is 50', () => {
+  test('age is 50', () => {
     expect(buildBirthdaySign(50)).toBe(
       'Happy Birthday! What a mature fellow you are.'
     );
@@ -38,12 +38,12 @@ describe('buildBirthdaySign', () => {
 });
 
 describe('graduationFor', () => {
-  xtest('Robs graduation, 2021', () => {
+  test('Robs graduation, 2021', () => {
     const expected = 'Congratulations Rob!\nClass of 2021';
     expect(graduationFor('Rob', 2021)).toBe(expected);
   });
 
-  xtest('Jills graduation, 1999', () => {
+  test('Jills graduation, 1999', () => {
     const expected = 'Congratulations Jill!\nClass of 1999';
     expect(graduationFor('Jill', 1999)).toBe(expected);
   });
