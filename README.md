@@ -22,8 +22,20 @@ This is a repo for completed Exercism challenges.
 - [Lucky Numbers](./javascript/lucky-numbers)
 - [Poetry Club Door Policy](./javascript/poetry-club-door-policy)
 - [Vehicle Purchase](./javascript/vehicle-purchase)
+- [Windowing System](./javascript/windowing-system)
 
 # Ruby
+
+- [Amusement Park](./ruby/amusement-park)
+- [Amusement Park Improvements](./ruby/amusement-park-improvements)
+- [Assembly Line](./ruby/assembly-line)
+- [Bird Count](./ruby/bird-count)
+- [Boutique Inventory](./ruby/boutique-inventory)
+- [Boutique Inventory Improvements](./ruby/boutique-inventory-improvements)
+- [Hello World!](./ruby/hello-world)
+- [Log Line Parser](./ruby/log-line-parser)
+- [Savings Account](./ruby/savings-account)
+- [Two Fer](./ruby/two-fer)
 
 # TypeScript
 

@@ -75,7 +75,7 @@ describe('ProgramWindow class', () => {
 });
 
 describe('resize', () => {
-  xtest('provides a resize method', () => {
+  test('provides a resize method', () => {
     const programWindow = new ProgramWindow();
     const newSize = new Size(300, 200);
     programWindow.resize(newSize);

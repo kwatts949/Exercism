@@ -32,4 +32,7 @@ export class ProgramWindow {
     this.size = new Size();
     this.position = new Position();
   }
+
+  resize(size) {}
 }
+ 
