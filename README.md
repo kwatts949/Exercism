@@ -26,6 +26,7 @@ This is a repo for completed Exercism challenges.
 
 # Ruby
 
+- [Acronym](./ruby/acronym)
 - [Amusement Park](./ruby/amusement-park)
 - [Amusement Park Improvements](./ruby/amusement-park-improvements)
 - [Assembly Line](./ruby/assembly-line)
@@ -33,8 +34,14 @@ This is a repo for completed Exercism challenges.
 - [Boutique Inventory](./ruby/boutique-inventory)
 - [Boutique Inventory Improvements](./ruby/boutique-inventory-improvements)
 - [Hello World!](./ruby/hello-world)
+- [High Scores](./ruby/high-scores)
+- [Microwave](./ruby/microwave)
+- [Movie Goer](./ruby/moviegoer)
 - [Log Line Parser](./ruby/log-line-parser)
+- [Locomotive Engineer](./ruby/locomotive-engineer)
+- [Resistor Colour Duo](./ruby/resistor-color-duo)
 - [Savings Account](./ruby/savings-account)
+- [Simple Calculator](./ruby/simple-calculator)
 - [Two Fer](./ruby/two-fer)
 
 # TypeScript
