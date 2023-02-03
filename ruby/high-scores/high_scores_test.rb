@@ -15,7 +15,7 @@ class HighScoresTest < Minitest::Test
   end
 
   def test_personal_best
-    skip
+    #skip
     scores = [40, 100, 70]
     assert_equal 100, HighScores.new(scores).personal_best
   end
