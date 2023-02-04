@@ -52,7 +52,7 @@ class PangramTest < Minitest::Test
   end
 
   def test_missing_letters_replaced_by_numbers
-    skip
+    #skip
     sentence = "7h3 qu1ck brown fox jumps ov3r 7h3 lazy dog"
     result = Pangram.pangram?(sentence)
     refute result, "Expected false, got: #{result.inspect}. #{sentence.inspect} is NOT a pangram"
