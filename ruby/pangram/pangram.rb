@@ -1,5 +1,7 @@
 class Pangram
   def self.pangram?(sentence)
-    sentence == 'abcdefghijklmnopqrstuvwxyz'
+    sorted_sentence = sentence.split('').sort.uniq.join("").strip
+   
+    sorted_sentence == 'abcdefghijklmnopqrstuvwxyz'
   end
 end
