@@ -69,7 +69,7 @@ class IsogramTest < Minitest::Test
   end
 
   def test_duplicated_character_in_the_middle
-    skip
+   # skip
     input = "accentor"
     refute Isogram.isogram?(input), "Expected false, '#{input}' is not an isogram"
   end
