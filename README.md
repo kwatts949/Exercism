@@ -37,12 +37,15 @@ This is a repo for completed Exercism challenges.
 - [High Scores](./ruby/high-scores)
 - [Microwave](./ruby/microwave)
 - [Movie Goer](./ruby/moviegoer)
+- [Isogram](./ruby/isogram)
 - [Log Line Parser](./ruby/log-line-parser)
 - [Locomotive Engineer](./ruby/locomotive-engineer)
 - [Resistor Colour Duo](./ruby/resistor-color-duo)
+- [RNA Transcription](./ruby/rna-transcription)
 - [Savings Account](./ruby/savings-account)
 - [Simple Calculator](./ruby/simple-calculator)
 - [Two Fer](./ruby/two-fer)
+- [Word Count](./ruby/word-count)
 
 # TypeScript
 
