@@ -3,6 +3,8 @@ class Complement
     p base
     if base == 'C'
       'G'
+    elsif base == 'G'
+      'C'
     else
       ''
     end
