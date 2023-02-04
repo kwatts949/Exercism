@@ -5,6 +5,8 @@ class Complement
       'G'
     elsif base == 'G'
       'C'
+    elsif base == 'T'
+      'A'
     else
       ''
     end
