@@ -1,5 +1,6 @@
 class Isogram
   def self.isogram?(input)
-    "Expected true, '#{input}' is an isogram"
+    letters_array = input.split("")
+    letters_array.uniq == letters_array
   end
 end
