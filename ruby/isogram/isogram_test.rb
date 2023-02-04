@@ -22,7 +22,7 @@ class IsogramTest < Minitest::Test
 
   def test_word_with_one_duplicated_character_from_the_end_of_the_alphabet
     skip
-    input = "zzyzx"
+    #input = "zzyzx"
     refute Isogram.isogram?(input), "Expected false, '#{input}' is not an isogram"
   end
 
