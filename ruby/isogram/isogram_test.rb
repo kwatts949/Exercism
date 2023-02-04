@@ -81,7 +81,7 @@ class IsogramTest < Minitest::Test
   end
 
   def test_word_with_duplicated_character_and_with_two_hyphens
-    skip
+    #skip
     input = "up-to-date"
     refute Isogram.isogram?(input), "Expected false, '#{input}' is not an isogram"
   end
