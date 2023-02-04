@@ -51,7 +51,7 @@ class IsogramTest < Minitest::Test
   end
 
   def test_hypothetical_word_with_duplicated_character_following_hyphen
-    skip
+    #skip
     input = "thumbscrew-jappingly"
     refute Isogram.isogram?(input), "Expected false, '#{input}' is not an isogram"
   end
