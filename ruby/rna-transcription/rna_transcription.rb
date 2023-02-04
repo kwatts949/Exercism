@@ -7,6 +7,8 @@ class Complement
       'C'
     elsif base == 'T'
       'A'
+    elsif base == 'A'
+      'U'
     else
       ''
     end
