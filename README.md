@@ -43,6 +43,7 @@ This is a repo for completed Exercism challenges.
 - [Resistor Colour Duo](./ruby/resistor-color-duo)
 - [RNA Transcription](./ruby/rna-transcription)
 - [Savings Account](./ruby/savings-account)
+- [Scrabble Score](./ruby/scrabble-score)
 - [Simple Calculator](./ruby/simple-calculator)
 - [Two Fer](./ruby/two-fer)
 - [Word Count](./ruby/word-count)

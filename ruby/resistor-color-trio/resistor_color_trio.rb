@@ -9,10 +9,11 @@ class ResistorColorTrio
     arr = []
     arr.push(colours.fetch(@colours[0]))
     arr.push(colours.fetch(@colours[1]))
-   if colours.fetch(@colours[2]) == 1
+    zeroes = colours.fetch(@colours[2])
+    zeroes.times {
       arr.push(0)
-    
-   end
+    }
+    if 
     p "Resistor value: #{arr.join("")} ohms"
     #(colours.fetch(@colours[2]))
     #`Resistor value: #{arr.join("")} ohms `
