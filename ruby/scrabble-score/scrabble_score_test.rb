@@ -8,7 +8,7 @@ class ScrabbleScoreTest < Minitest::Test
   end
 
   def test_uppercase_letter
-    skip
+    #skip
     assert_equal 1, Scrabble.new("A").score
   end
 
