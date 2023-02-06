@@ -4,6 +4,7 @@ class Series
   end
 
   def slices(n)
+    raise ArgumentError if @string.length < n
     arr = []
     split_string = @string.to_s.split("")
 
