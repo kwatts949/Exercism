@@ -13,12 +13,12 @@ class ScrabbleScoreTest < Minitest::Test
   end
 
   def test_valuable_letter
-    skip
+    #skip
     assert_equal 4, Scrabble.new("f").score
   end
 
   def test_short_word
-    skip
+    #skip
     assert_equal 2, Scrabble.new("at").score
   end
 
