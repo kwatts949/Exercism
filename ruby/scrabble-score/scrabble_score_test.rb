@@ -48,12 +48,12 @@ class ScrabbleScoreTest < Minitest::Test
   end
 
   def test_empty_input
-    skip
+    #skip
     assert_equal 0, Scrabble.new("").score
   end
 
   def test_entire_alphabet_available
-    skip
+    #skip
     assert_equal 87, Scrabble.new("abcdefghijklmnopqrstuvwxyz").score
   end
 end
