@@ -4,10 +4,11 @@ class Series
   end
 
   def slices(n)
-    #["1"]
-    p n
+    arr = []
     split_string = @string.to_s.split("")
 
-    p split_string
+    arrays = split_string.each_cons(n).to_a
+    arrays.each {|array| arr.push( array.join())}
+    arr
   end
 end

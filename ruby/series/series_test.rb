@@ -15,13 +15,13 @@ class SeriesTest < Minitest::Test
   end
 
   def test_slices_of_two
-    skip
+    #skip
     series = Series.new("35")
     assert_equal ["35"], series.slices(2)
   end
 
   def test_slices_of_two_overlap
-    skip
+   # skip
     series = Series.new("9142")
     assert_equal %w[91 14 42], series.slices(2)
   end
