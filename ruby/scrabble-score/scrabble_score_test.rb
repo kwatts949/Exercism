@@ -28,12 +28,12 @@ class ScrabbleScoreTest < Minitest::Test
   end
 
   def test_medium_word
-    skip
+    #skip
     assert_equal 6, Scrabble.new("street").score
   end
 
   def test_medium_valuable_word
-    skip
+    #skip
     assert_equal 22, Scrabble.new("quirky").score
   end
 
