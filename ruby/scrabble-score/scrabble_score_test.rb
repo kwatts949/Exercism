@@ -38,12 +38,12 @@ class ScrabbleScoreTest < Minitest::Test
   end
 
   def test_long_mixed_case_word
-    skip
+    #skip
     assert_equal 41, Scrabble.new("OxyphenButazone").score
   end
 
   def test_english_like_word
-    skip
+    #skip
     assert_equal 8, Scrabble.new("pinata").score
   end
 
