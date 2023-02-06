@@ -23,7 +23,7 @@ class ScrabbleScoreTest < Minitest::Test
   end
 
   def test_short_valuable_word
-    skip
+    #skip
     assert_equal 12, Scrabble.new("zoo").score
   end
 
