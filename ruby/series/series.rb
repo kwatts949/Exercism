@@ -3,7 +3,11 @@ class Series
     @string = string
   end
 
-  def slices(string_array)
-    ["1"]
+  def slices(n)
+    #["1"]
+    p n
+    split_string = @string.to_s.split("")
+
+    p split_string
   end
 end

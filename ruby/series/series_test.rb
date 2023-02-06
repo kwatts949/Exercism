@@ -9,7 +9,7 @@ class SeriesTest < Minitest::Test
   end
 
   def test_slices_of_one_from_two
-    skip
+    #skip
     series = Series.new("12")
     assert_equal %w[1 2], series.slices(1)
   end
