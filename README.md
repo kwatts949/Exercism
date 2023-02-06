@@ -38,6 +38,7 @@ This is a repo for completed Exercism challenges.
 - [Microwave](./ruby/microwave)
 - [Movie Goer](./ruby/moviegoer)
 - [Isogram](./ruby/isogram)
+- [Leap](./ruby/leap)
 - [Log Line Parser](./ruby/log-line-parser)
 - [Locomotive Engineer](./ruby/locomotive-engineer)
 - [Resistor Colour Duo](./ruby/resistor-color-duo)
