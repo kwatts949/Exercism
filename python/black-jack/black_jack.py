@@ -46,6 +46,18 @@ def higher_card(card_one, card_two):
     else:
         return card_two
 
+def value_of_aces(card):
+    if card is 'J':
+        return 10
+    elif card is 'Q':
+        return 10
+    elif card is 'K':
+        return 10
+    elif card is 'A':
+        return 11
+    else:
+        return int(card)
+
 
 def value_of_ace(card_one, card_two):
     """Calculate the most advantageous value for the ace card.
@@ -58,7 +70,12 @@ def value_of_ace(card_one, card_two):
     3.  '2' - '10' = numerical value.
     """
 
-    pass
+    sum = value_of_aces(card_one) + value_of_aces(card_two)
+
+    if sum + 11 > 21:
+        return 1
+    else:
+        return 11
 
 
 def is_blackjack(card_one, card_two):
