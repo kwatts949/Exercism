@@ -16,13 +16,13 @@ def value_of_card(card):
     3.  '2' - '10' = numerical value.
     """
 
-    if card is 'J':
+    if card == 'J':
         return 10
-    elif card is 'Q':
+    elif card == 'Q':
         return 10
-    elif card is 'K':
+    elif card == 'K':
         return 10
-    elif card is 'A':
+    elif card == 'A':
         return 1
     else:
         return int(card)
@@ -47,13 +47,13 @@ def higher_card(card_one, card_two):
         return card_two
 
 def value_of_aces(card):
-    if card is 'J':
+    if card == 'J':
         return 10
-    elif card is 'Q':
+    elif card == 'Q':
         return 10
-    elif card is 'K':
+    elif card == 'K':
         return 10
-    elif card is 'A':
+    elif card == 'A':
         return 11
     else:
         return int(card)
@@ -108,5 +108,6 @@ def can_double_down(card_one, card_two):
     :param card_one, card_two: str - first and second cards in hand.
     :return: bool - can the hand can be doubled down? (i.e. totals 9, 10 or 11 points).
     """
+    sum = value_of_card(card_one) + value_of_card(card_two)
 
-    pass
+    return sum == 9 or sum == 10 or sum == 11
