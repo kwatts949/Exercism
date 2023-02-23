@@ -12,6 +12,9 @@ public class CarsAssemble {
     }
 
     public int workingItemsPerMinute(int speed) {
-        throw new UnsupportedOperationException("Please implement the CarsAssemble.workingItemsPerMinute() method");
+        double rate = productionRatePerHour(speed);
+        int rateInt = (int)rate;
+
+        return  rateInt / 60;
     }
 }
