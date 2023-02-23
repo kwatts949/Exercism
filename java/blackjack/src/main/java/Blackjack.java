@@ -48,7 +48,7 @@ public class Blackjack {
     public String smallHand(int handScore, int dealerScore) {
         if(handScore >= 17) {
             return "S";
-        } else if(handScore >= 11) {
+        } else if(handScore <= 11) {
             return "H";
         } else if(dealerScore >= 7) {
             return "H";
