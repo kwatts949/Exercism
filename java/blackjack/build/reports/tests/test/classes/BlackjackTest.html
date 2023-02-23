@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">42</div>
+<div class="counter">32</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.049s</div>
+<div class="counter">0.037s</div>
 <p>duration</p>
 </div>
 </td>
@@ -51,7 +51,7 @@
 </td>
 <td>
 <div class="infoBox failures" id="successRate">
-<div class="percent">23%</div>
+<div class="percent">41%</div>
 <p>successful</p>
 </div>
 </td>
@@ -70,212 +70,12 @@
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
 <div class="test">
-<a name="blackjackWithJackAceSecond"></a>
-<h3 class="failures">blackjackWithJackAceSecond</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at BlackjackTest.blackjackWithJackAceSecond(BlackjackTest.java:88)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="blackjackWithKingAceSecond"></a>
-<h3 class="failures">blackjackWithKingAceSecond</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at BlackjackTest.blackjackWithKingAceSecond(BlackjackTest.java:98)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="blackjackWithQueenAceSecond"></a>
-<h3 class="failures">blackjackWithQueenAceSecond</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at BlackjackTest.blackjackWithQueenAceSecond(BlackjackTest.java:93)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="blackjackWithTenAceSecond"></a>
-<h3 class="failures">blackjackWithTenAceSecond</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at BlackjackTest.blackjackWithTenAceSecond(BlackjackTest.java:83)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-<div class="test">
 <a name="firstTurnWithAceAceAndDealerAce"></a>
 <h3 class="failures">firstTurnWithAceAceAndDealerAce</h3>
 <span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at Blackjack.firstTurn(Blackjack.java:53)
+<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.largeHand method
+	at Blackjack.largeHand(Blackjack.java:40)
+	at Blackjack.firstTurn(Blackjack.java:55)
 	at BlackjackTest.firstTurnWithAceAceAndDealerAce(BlackjackTest.java:134)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -324,9 +124,9 @@
 <a name="firstTurnWithAceKingAndDealerQueen"></a>
 <h3 class="failures">firstTurnWithAceKingAndDealerQueen</h3>
 <span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at Blackjack.firstTurn(Blackjack.java:53)
+<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.largeHand method
+	at Blackjack.largeHand(Blackjack.java:40)
+	at Blackjack.firstTurn(Blackjack.java:55)
 	at BlackjackTest.firstTurnWithAceKingAndDealerQueen(BlackjackTest.java:164)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -376,8 +176,8 @@
 <h3 class="failures">firstTurnWithEightTenAndDealerAce</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithEightTenAndDealerAce(BlackjackTest.java:189)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -427,8 +227,8 @@
 <h3 class="failures">firstTurnWithFiveFiveAndAce</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithFiveFiveAndAce(BlackjackTest.java:154)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -478,8 +278,8 @@
 <h3 class="failures">firstTurnWithFiveTenAndDealerKing</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithFiveTenAndDealerKing(BlackjackTest.java:224)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -529,8 +329,8 @@
 <h3 class="failures">firstTurnWithFiveTenAndDealerSeven</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithFiveTenAndDealerSeven(BlackjackTest.java:219)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -580,8 +380,8 @@
 <h3 class="failures">firstTurnWithFiveTenAndDealerSix</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithFiveTenAndDealerSix(BlackjackTest.java:214)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -631,8 +431,8 @@
 <h3 class="failures">firstTurnWithFourTenAndDealerQueen</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithFourTenAndDealerQueen(BlackjackTest.java:239)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -682,8 +482,8 @@
 <h3 class="failures">firstTurnWithFourTenAndDealerSeven</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithFourTenAndDealerSeven(BlackjackTest.java:234)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -733,8 +533,8 @@
 <h3 class="failures">firstTurnWithFourTenAndDealerSix</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithFourTenAndDealerSix(BlackjackTest.java:229)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -783,9 +583,9 @@
 <a name="firstTurnWithJackAceAndDealerAce"></a>
 <h3 class="failures">firstTurnWithJackAceAndDealerAce</h3>
 <span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at Blackjack.firstTurn(Blackjack.java:53)
+<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.largeHand method
+	at Blackjack.largeHand(Blackjack.java:40)
+	at Blackjack.firstTurn(Blackjack.java:55)
 	at BlackjackTest.firstTurnWithJackAceAndDealerAce(BlackjackTest.java:159)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -835,8 +635,8 @@
 <h3 class="failures">firstTurnWithJackJackAndDealerAce</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithJackJackAndDealerAce(BlackjackTest.java:139)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -885,9 +685,9 @@
 <a name="firstTurnWithKingAceAndDealerNine"></a>
 <h3 class="failures">firstTurnWithKingAceAndDealerNine</h3>
 <span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at Blackjack.firstTurn(Blackjack.java:53)
+<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.largeHand method
+	at Blackjack.largeHand(Blackjack.java:40)
+	at Blackjack.firstTurn(Blackjack.java:55)
 	at BlackjackTest.firstTurnWithKingAceAndDealerNine(BlackjackTest.java:174)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -937,8 +737,8 @@
 <h3 class="failures">firstTurnWithKingKingAndDealerAce</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithKingKingAndDealerAce(BlackjackTest.java:144)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -988,8 +788,8 @@
 <h3 class="failures">firstTurnWithKingSevenAndDealerAce</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithKingSevenAndDealerAce(BlackjackTest.java:194)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1039,8 +839,8 @@
 <h3 class="failures">firstTurnWithKingTenAndDealerAce</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithKingTenAndDealerAce(BlackjackTest.java:179)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1090,8 +890,8 @@
 <h3 class="failures">firstTurnWithNineTenAndDealerAce</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithNineTenAndDealerAce(BlackjackTest.java:184)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1141,8 +941,8 @@
 <h3 class="failures">firstTurnWithSixTenAndDealerAce</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithSixTenAndDealerAce(BlackjackTest.java:209)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1192,8 +992,8 @@
 <h3 class="failures">firstTurnWithSixTenAndDealerSeven</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithSixTenAndDealerSeven(BlackjackTest.java:204)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1243,8 +1043,8 @@
 <h3 class="failures">firstTurnWithSixTenAndDealerSix</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithSixTenAndDealerSix(BlackjackTest.java:199)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1293,9 +1093,9 @@
 <a name="firstTurnWithTenAceAndDealerFive"></a>
 <h3 class="failures">firstTurnWithTenAceAndDealerFive</h3>
 <span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at Blackjack.firstTurn(Blackjack.java:53)
+<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.largeHand method
+	at Blackjack.largeHand(Blackjack.java:40)
+	at Blackjack.firstTurn(Blackjack.java:55)
 	at BlackjackTest.firstTurnWithTenAceAndDealerFive(BlackjackTest.java:169)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1345,8 +1145,8 @@
 <h3 class="failures">firstTurnWithThreeTenAndDealerQueen</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithThreeTenAndDealerQueen(BlackjackTest.java:254)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1396,8 +1196,8 @@
 <h3 class="failures">firstTurnWithThreeTenAndDealerSeven</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithThreeTenAndDealerSeven(BlackjackTest.java:249)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1447,8 +1247,8 @@
 <h3 class="failures">firstTurnWithThreeTenAndDealerSix</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithThreeTenAndDealerSix(BlackjackTest.java:244)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1498,8 +1298,8 @@
 <h3 class="failures">firstTurnWithTwoEightAndDealerTwo</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithTwoEightAndDealerTwo(BlackjackTest.java:279)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1549,8 +1349,8 @@
 <h3 class="failures">firstTurnWithTwoNineAndDealerQueen</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithTwoNineAndDealerQueen(BlackjackTest.java:274)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1600,8 +1400,8 @@
 <h3 class="failures">firstTurnWithTwoTenAndDealerQueen</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithTwoTenAndDealerQueen(BlackjackTest.java:269)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1651,8 +1451,8 @@
 <h3 class="failures">firstTurnWithTwoTenAndDealerSeven</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithTwoTenAndDealerSeven(BlackjackTest.java:264)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1702,8 +1502,8 @@
 <h3 class="failures">firstTurnWithTwoTenAndDealerSix</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithTwoTenAndDealerSix(BlackjackTest.java:259)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1753,8 +1553,8 @@
 <h3 class="failures">firstTurnWithTwoThreeAndDealerQueen</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithTwoThreeAndDealerQueen(BlackjackTest.java:284)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1804,8 +1604,8 @@
 <h3 class="failures">firstTurnWithTwoTwoAndDealerAce</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithTwoTwoAndDealerAce(BlackjackTest.java:149)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -1855,309 +1655,9 @@
 <h3 class="failures">firstTurnWithTwoTwoAndDealerFive</h3>
 <span class="code">
 <pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.smallHand method
-	at Blackjack.smallHand(Blackjack.java:42)
-	at Blackjack.firstTurn(Blackjack.java:55)
+	at Blackjack.smallHand(Blackjack.java:44)
+	at Blackjack.firstTurn(Blackjack.java:57)
 	at BlackjackTest.firstTurnWithTwoTwoAndDealerFive(BlackjackTest.java:289)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="noBlackjackWithEightAndFive"></a>
-<h3 class="failures">noBlackjackWithEightAndFive</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at BlackjackTest.noBlackjackWithEightAndFive(BlackjackTest.java:129)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="noBlackjackWithFive"></a>
-<h3 class="failures">noBlackjackWithFive</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at BlackjackTest.noBlackjackWithFive(BlackjackTest.java:104)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="noBlackjackWithKingAndFive"></a>
-<h3 class="failures">noBlackjackWithKingAndFive</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at BlackjackTest.noBlackjackWithKingAndFive(BlackjackTest.java:124)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="noBlackjackWithNine"></a>
-<h3 class="failures">noBlackjackWithNine</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at BlackjackTest.noBlackjackWithNine(BlackjackTest.java:109)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="noBlackjackWithTwoAces"></a>
-<h3 class="failures">noBlackjackWithTwoAces</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at BlackjackTest.noBlackjackWithTwoAces(BlackjackTest.java:114)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="noBlackjackWithTwoFigures"></a>
-<h3 class="failures">noBlackjackWithTwoFigures</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the Blackjack.isBlackjack method
-	at Blackjack.isBlackjack(Blackjack.java:34)
-	at BlackjackTest.noBlackjackWithTwoFigures(BlackjackTest.java:119)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
@@ -2213,24 +1713,24 @@
 </tr>
 </thead>
 <tr>
-<td class="failures">blackjackWithJackAceSecond</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">blackjackWithJackAceSecond</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">blackjackWithKingAceSecond</td>
-<td class="failures">0.002s</td>
-<td class="failures">failed</td>
+<td class="success">blackjackWithKingAceSecond</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">blackjackWithQueenAceSecond</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">blackjackWithQueenAceSecond</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">blackjackWithTenAceSecond</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">blackjackWithTenAceSecond</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">correctParsesAce</td>
@@ -2239,12 +1739,12 @@
 </tr>
 <tr>
 <td class="success">correctParsesEight</td>
-<td class="success">0.033s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">correctParsesFive</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -2274,7 +1774,7 @@
 </tr>
 <tr>
 <td class="success">correctParsesSeven</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -2284,7 +1784,7 @@
 </tr>
 <tr>
 <td class="success">correctParsesTen</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -2299,7 +1799,7 @@
 </tr>
 <tr>
 <td class="failures">firstTurnWithAceAceAndDealerAce</td>
-<td class="failures">0.001s</td>
+<td class="failures">0.002s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -2309,7 +1809,7 @@
 </tr>
 <tr>
 <td class="failures">firstTurnWithEightTenAndDealerAce</td>
-<td class="failures">0.001s</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -2319,7 +1819,7 @@
 </tr>
 <tr>
 <td class="failures">firstTurnWithFiveTenAndDealerKing</td>
-<td class="failures">0s</td>
+<td class="failures">0.001s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -2329,7 +1829,7 @@
 </tr>
 <tr>
 <td class="failures">firstTurnWithFiveTenAndDealerSix</td>
-<td class="failures">0.001s</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -2344,12 +1844,12 @@
 </tr>
 <tr>
 <td class="failures">firstTurnWithFourTenAndDealerSix</td>
-<td class="failures">0.001s</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">firstTurnWithJackAceAndDealerAce</td>
-<td class="failures">0.001s</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -2394,12 +1894,12 @@
 </tr>
 <tr>
 <td class="failures">firstTurnWithSixTenAndDealerSix</td>
-<td class="failures">0.001s</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">firstTurnWithTenAceAndDealerFive</td>
-<td class="failures">0s</td>
+<td class="failures">0.001s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -2449,7 +1949,7 @@
 </tr>
 <tr>
 <td class="failures">firstTurnWithTwoTwoAndDealerAce</td>
-<td class="failures">0.001s</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -2458,34 +1958,34 @@
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="failures">noBlackjackWithEightAndFive</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">noBlackjackWithEightAndFive</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">noBlackjackWithFive</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">noBlackjackWithFive</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">noBlackjackWithKingAndFive</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">noBlackjackWithKingAndFive</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">noBlackjackWithNine</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">noBlackjackWithNine</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">noBlackjackWithTwoAces</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">noBlackjackWithTwoAces</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">noBlackjackWithTwoFigures</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">noBlackjackWithTwoFigures</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
@@ -2497,7 +1997,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.0.1</a> at 23 Feb 2023, 12:54:09</p>
+<a href="http://www.gradle.org">Gradle 8.0.1</a> at 23 Feb 2023, 13:23:37</p>
 </div>
 </div>
 </body>
