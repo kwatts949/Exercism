@@ -70,9 +70,9 @@ def value_of_ace(card_one, card_two):
     3.  '2' - '10' = numerical value.
     """
 
-    sum = value_of_aces(card_one) + value_of_aces(card_two)
+    values = value_of_aces(card_one) + value_of_aces(card_two)
 
-    if sum + 11 > 21:
+    if values + 11 > 21:
         return 1
     else:
         return 11
@@ -108,6 +108,6 @@ def can_double_down(card_one, card_two):
     :param card_one, card_two: str - first and second cards in hand.
     :return: bool - can the hand can be doubled down? (i.e. totals 9, 10 or 11 points).
     """
-    sum = value_of_card(card_one) + value_of_card(card_two)
+    values = value_of_card(card_one) + value_of_card(card_two)
 
-    return sum == 9 or sum == 10 or sum == 11
+    return values in (9,10,11)

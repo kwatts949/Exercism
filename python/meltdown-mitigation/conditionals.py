@@ -1,6 +1,5 @@
 """Functions to prevent a nuclear meltdown."""
 
-
 def is_criticality_balanced(temperature, neutrons_emitted):
     """Verify criticality is balanced.
 
@@ -13,14 +12,8 @@ def is_criticality_balanced(temperature, neutrons_emitted):
     - The number of neutrons emitted per second is greater than 500.
     - The product of temperature and neutrons emitted per second is less than 500000.
     """
-
-    if temperature < 800 and neutrons_emitted > 500 and temperature * neutrons_emitted < 500000:
-        return True
-    else:
-        return False
-
-
-
+    return bool(temperature < 800 and neutrons_emitted > 500 and temperature * neutrons_emitted < 500000)
+  
 def reactor_efficiency(voltage, current, theoretical_max_power):
     """Assess reactor efficiency zone.
 
@@ -53,8 +46,6 @@ def reactor_efficiency(voltage, current, theoretical_max_power):
     else:
         return 'black'
     
-
-
 def fail_safe(temperature, neutrons_produced_per_second, threshold):
     """Assess and return status code for the reactor.
 

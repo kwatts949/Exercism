@@ -55,7 +55,6 @@ def get_leftover_of_bills(budget, denomination):
 
 
 def exchangeable_value(budget, exchange_rate, spread, denomination):
-    import math
     """
 
     :param budget: float - the amount of your money you are planning to exchange.
@@ -71,4 +70,3 @@ def exchangeable_value(budget, exchange_rate, spread, denomination):
     number_of_bills = get_number_of_bills(exchanged_value, denomination)
 
     return get_value_of_bills(denomination, number_of_bills)
-
