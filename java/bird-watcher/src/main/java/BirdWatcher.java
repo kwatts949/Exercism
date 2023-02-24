@@ -28,11 +28,14 @@ class BirdWatcher {
         int[] newArray = Arrays.copyOfRange(birdsPerDay, 0, numberOfDays);
 
         int sum = Arrays.stream(newArray).sum();
-        
+
         return sum;
     }
 
     public int getBusyDays() {
-        throw new UnsupportedOperationException("Please implement the BirdCount.getBusyDays() method");
+        return (int) Arrays.stream(birdsPerDay)
+        
+        .filter(value -> value >= 5)
+        .count();
     }
 }
