@@ -1,5 +1,6 @@
 public class ElonsToyCar {
     int meters = 0;
+    int battery = 100;
 
     public static ElonsToyCar buy() {
         ElonsToyCar car = new ElonsToyCar();
@@ -11,10 +12,19 @@ public class ElonsToyCar {
     }
 
     public String batteryDisplay() {
-       return "Battery at 100%";
+        if(battery < 1) {
+            return "Battery empty";
+        } else {
+            return "Battery at " + battery + "%";
+        }
     }
 
     public void drive() {
-        meters += 20;
+        if (battery < 1) {
+            battery = 0;
+        } else {
+            battery -= 1;
+            meters += 20;
+        }
     }
 }
