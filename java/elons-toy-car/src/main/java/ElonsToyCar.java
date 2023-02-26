@@ -9,7 +9,7 @@ public class ElonsToyCar {
     }
 
     public String batteryDisplay() {
-        throw new UnsupportedOperationException("Please implement the (static) RemoteControlCar.batteryDisplay()  method");
+       return "Battery at 100%";
     }
 
     public void drive() {
