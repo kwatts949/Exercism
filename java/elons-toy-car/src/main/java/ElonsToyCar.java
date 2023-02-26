@@ -1,11 +1,13 @@
 public class ElonsToyCar {
+    int meters = 0;
+
     public static ElonsToyCar buy() {
         ElonsToyCar car = new ElonsToyCar();
         return car;
     }
 
     public String distanceDisplay() {
-        return "Driven 0 meters";
+        return "Driven " + meters + " meters";
     }
 
     public String batteryDisplay() {
@@ -13,6 +15,6 @@ public class ElonsToyCar {
     }
 
     public void drive() {
-        throw new UnsupportedOperationException("Please implement the (static) RemoteControlCar.drive()  method");
+        meters += 20;
     }
 }
