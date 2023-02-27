@@ -1,5 +1,20 @@
 This is a repo for completed Exercism challenges.
 
+# Java
+
+- [Annalyn's Infiltration](./java/annalyns-infiltration)
+- [Bird Watcher](./java/bird-watcher)
+- [Blackjack](./java/blackjack)
+- [Cars Assemble](./java/cars-assemble)
+- [Elon's Toy Car](./java/elons-toy-car)
+- [Hello World](./java/hello-world)
+- [Karl's Language](./java/karls-language)
+- [Lasagna](./java/lasagna)
+- [Log Levels](./java/log-levels)
+- [Salary Calculator](./java/salary-calculator)
+- [Squeaky Clean](./java/squeaky-clean)
+- [Two Fer](./java/two-fer)
+
 # JavaScript
 
 - [Amusement Park](./javascript/amusement-park)
