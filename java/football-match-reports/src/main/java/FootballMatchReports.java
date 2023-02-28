@@ -9,8 +9,12 @@ public class FootballMatchReports {
                 return "center back";
             case 4:
                 return "center back";
+            case 5:
+                return "right back";
+            case 9:
+                return "left wing";
             default:
-                return "none";
+                return "midfielder";
         }
     }
 }
