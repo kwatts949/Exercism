@@ -31,7 +31,7 @@ class Wizard extends Fighter {
 
     @Override
     int damagePoints(Fighter warrior) {
-        throw new UnsupportedOperationException("Please implement Wizard.damagePoints() method");
+        return hasSpell ? 12 : 3;
     }
 
     void prepareSpell() {
