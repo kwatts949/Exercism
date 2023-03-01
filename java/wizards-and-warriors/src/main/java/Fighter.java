@@ -12,12 +12,12 @@ class Warrior extends Fighter {
 
     @Override
     public String toString() {
-        return "Fighter is a " + getClass().getName();
+        return "Fighter is a Warrior";
     }
 
     @Override
     int damagePoints(Fighter wizard) {
-        throw new UnsupportedOperationException("Please implement Warrior.damagePoints() method");
+        return wizard.isVulnerable() ? 10 : 6;
     }
 }
 
@@ -32,6 +32,11 @@ class Wizard extends Fighter {
     @Override
     int damagePoints(Fighter warrior) {
         return hasSpell ? 12 : 3;
+    }
+
+    @Override
+    public String toString() {
+        return "Fighter is a Wizard";
     }
 
     void prepareSpell() {
