@@ -22,10 +22,11 @@ class Warrior extends Fighter {
 }
 
 class Wizard extends Fighter {
+    private boolean hasSpell = false;
 
     @Override
     boolean isVulnerable() {
-        throw new UnsupportedOperationException("Please implement Wizard.isVulnerable() method");
+        return !hasSpell;
     }
 
     @Override
@@ -34,7 +35,7 @@ class Wizard extends Fighter {
     }
 
     void prepareSpell() {
-        throw new UnsupportedOperationException("Please implement Wizard.prepareSpell() method");
+        hasSpell = true;
     }
 
 }
